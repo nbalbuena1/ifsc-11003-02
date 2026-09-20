@@ -5,25 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
  <meta name="description" content="Descriptive call to action / overview of site purpose" >
  <meta name="author" content="Noel Balbuena" >
-
- <title>Web Foundations: Building Meaningful Pages</title>
+<title>Web Foundations: Building Meaningful Pages</title>
  </head>
- <body>
-  <header>
- <h1>Web Foundations: Building Meaningful Pages</h1>
 
+ <body>
+
+  <header id="top">
+ <h1>Web Foundations: Building Meaningful Pages</h1>
  <nav>
     <ul>
-        <li><a href="#demo">Home</a></li>
-        <li><a href="#demo">HTML Basics</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#basics">HTML Basics</a></li>
         <li><a href="#demo">Accessibility</a></li>
-        <li><a href="#demo">Resources</a></li>
-        <li><a href="#demo">Contact</a></li>
+        <li><a href="#sources">Resources</a></li>
+        <li><a href="#about">About</a></li>
 </ul>
 </nav>
 </header>
 <main>
-  <section>
+  <article id="basics">
  <h2>Understanding Semantic HTML</h2>
  
  <p>The web is more than a collection of visually formatted documents. HTML provides meaning and structure to content so that browsers, search engines, assistive technologies, and people can better understand how information is organized.</p>
@@ -32,8 +32,8 @@
  <dt><strong>CSS</strong></dt> <dd>is generally responsible for presentation</dd> 
  <dt><strong>JavaScript</strong></dt>  <dd>can add behavior and interactivity.</dd>
  </dl>
- </section>
- <section>
+ 
+ 
  <h3>Why Semantics Matter</h3>
  
  <p>Semantic HTML uses elements according to the meaning of the content they contain. Choosing an element because of what it represents, rather than because of its default appearance, produces documents that are easier to understand and maintain.
@@ -44,7 +44,7 @@
  
  The Web Accessibility Initiative, commonly abbreviated WAI, develops standards and supporting materials that help make the web more accessible to people with disabilities.
 </p>
-</section>
+</article>
 <section>
  <h3>Common Principles for Well-Structured Pages</h3>
  <ul>
@@ -64,7 +64,7 @@
   </ul>
   </section>
   <section>
-  <h3>Useful HTML Terms</h3>
+  <h2>Useful HTML Terms</h2>
   <dl>
   <dt><strong>Element</strong></dt>
   <dd>A structural or semantic component of an HTML document. Examples include headings, paragraphs, links, and lists.
@@ -87,7 +87,7 @@
     </dl>
     </section>
     <section>
-  <h3>Writing Code Clearly</h3>
+  <h2>Writing Code Clearly</h2>
  
   <p>HTML documents are easier to maintain when developers follow consistent formatting conventions. For example, a developer might use the code fragment class="featured" to identify a particular classification within a document.
  
@@ -103,7 +103,7 @@ This statement appears in materials from the World Wide Web Consortium, often re
  </section>
 
  <section>
- <h4>Semantic Structure in Practice</h4>
+ <h3>Semantic Structure in Practice</h3>
  
  <p>A well-structured page does not need to be visually complicated. Even a simple article can contain several meaningful regions. The page might begin with introductory information and navigation, followed by its primary content. Within that content, related topics can be grouped together while still belonging to a larger article.
  
@@ -117,7 +117,7 @@ The distinction between structure and appearance is important. A heading is not 
  </figure>
 </section>
 
- <section>
+ <section id="sources">
     <h4>Recommended Resources</h4>
     <ul>
     <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Web Docs</a> 
@@ -137,8 +137,8 @@ The distinction between structure and appearance is important. A heading is not 
  </ul>
  </section>
  </main>
- <footer id="about site">
-  <h4>About This Site</h4>
+ <footer id="about">
+  <h2>About This Site</h2>
    <p>
     <strong>Web Foundations</strong> is a learning resource for students studying modern front-end development. 
     The material emphasizes standards-based development, semantic HTML, accessibility, and the use of the native web platform.
