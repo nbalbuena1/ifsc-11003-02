@@ -20,3 +20,44 @@ html {
   white-space: nowrap;
   width: 1px;
 }
+body{
+  font-family: "Lato", sans-serif;
+   margin:0;
+}
+header.primary{
+  background-color:#4EFD54 ;
+  color:rgb(255, 0, 0);
+  text-align: center;
+  text-shadow:1px 1px #102811;
+   padding:40px;
+  /* Longform */
+  padding-top:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+  padding-left:40px;
+   /* T/R/B/L */
+  padding: 40px 40px 20px 40px;
+    /* T/B | L/R */
+  padding: 20px 40px;
+}
+header.primary a{
+  color:rgb(255, 0, 0);
+ text-decoration:none;
+  
+}
+header.primary{
+ font-size: 1.5rem;
+ margin:0;
+}
+header.primary p.subtitle{
+  font-size: 1.2rem;
+   font-weight:bold;
+    /* top | l/r | Bottom */
+  margin:10px 0 20px;
+  letter-spacing: .5px;
+}
+
+nav.primary ul{
+  list-style-type: none;
+  padding: 0;
+}
