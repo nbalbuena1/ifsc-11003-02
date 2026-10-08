@@ -8,6 +8,13 @@ html {
   box-sizing: inherit;
 }
 
+/* ---------------Responsive Images----------------- */
+img{
+  max-width:100%;
+}
+
+
+
 /* Skip link utility: hidden until focused */
 .visually-hidden {
   border: 0;
@@ -61,7 +68,7 @@ header.primary a{
  text-decoration:none;
   
 }
-header.primary{
+header.primary h1{
  font-size: 1.5rem;
  margin:0;
 }
@@ -98,6 +105,46 @@ nav.primary ul li a:hover{
   background-color: rgb(27, 9, 228);
 
 }
+ #content h2{
+ color:#3b638b; 
+ border-bottom: 1px dotted #000;
+}
+
+#content p{
+  line-height:1.6;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+#blog figure{
+  margin:0;
+}
+
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.6);
+  padding:10px;
+  font-size:.8rem;
+  flex:1;
+}
+
+#blog h2{
+  flex: 0 0 100%;
+}
+
+#blog time.post-date, #blog figcaption{
+  text-transform:uppercase;
+  font-size:.6rem;
+}
+
+#blog a{
+    color:#3B638B;
+}
 
 
 
@@ -112,6 +159,14 @@ nav.primary ul li a:hover{
 nav.primary ul {
   flex-direction:column;
   gap:10px;
+}
+
+.container{
+  width:90vw;
+}
+
+#blog {
+  flex-direction: column;
 }
 
 
